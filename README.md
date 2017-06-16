@@ -6,6 +6,7 @@
 
 大致是采用MVP架构，网络请求使用Retrofit2.0+RxJava，图片加载使用Glide。<br>
 
+
 截图<br>
 
 ![Image text](https://github.com/lemon-zzz/ZuiMusic/blob/master/screenshot/S70616-225719.jpg)
