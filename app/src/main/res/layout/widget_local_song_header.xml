@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_local_song_item_bg"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/ll_detail_header_icon"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/icon_detail_play_all" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_detail_header_option"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/icon_play_all" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ll_detail_header_option"
+        android:layout_toRightOf="@+id/ll_detail_header_icon"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_all"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/big_text_size" />
+
+        <TextView
+            android:id="@+id/tv_detail_header_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(共48首)"
+            android:textColor="@color/Gray"
+            android:textSize="@dimen/middle_text_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorGray" />
+
+</RelativeLayout>

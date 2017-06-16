@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sr_music"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="60dp">
+
+            <LinearLayout
+                android:id="@+id/ll_music_local_music"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/music_item_height"
+                android:background="@drawable/selector_music_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/music_local_music" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@drawable/shape_divider"
+                    android:orientation="vertical"
+                    android:showDividers="end">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/local_music"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tv_music_local_music_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:text="(666)"
+                            android:textColor="@color/Gray"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_music_recent_play"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/music_item_height"
+                android:background="@drawable/selector_music_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/music_icn_recent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@drawable/shape_divider"
+                    android:orientation="vertical"
+                    android:showDividers="end">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/recently_played"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tv_music_recent_play_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:text="(666)"
+                            android:textColor="@color/Gray"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_music_download_manager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/music_item_height"
+                android:background="@drawable/selector_music_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/music_download" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@drawable/shape_divider"
+                    android:orientation="vertical"
+                    android:showDividers="end">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/download_maneger"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tv_music_download_manager_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:text="(666)"
+                            android:textColor="@color/Gray"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_music_my_singer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/music_item_height"
+                android:background="@drawable/selector_music_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/music_my_anthor" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@drawable/shape_divider"
+                    android:orientation="vertical"
+                    android:showDividers="end">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/my_singer"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tv_music_my_singer_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:text="(666)"
+                            android:textColor="@color/Gray"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_music_my_mv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/music_item_height"
+                android:background="@drawable/selector_music_item_bg"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/music_mv" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="51dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/my_mv"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/tv_music_my_mv_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:text="(666)"
+                            android:textColor="@color/Gray"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_music_create_song_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="@color/colorDeepGray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_music_create_song_sheet"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/music_left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/create_song_sheet"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_music_create_song_sheet_count"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(6)"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_music_create_song_sheet_option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="3dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="23dp"
+                        android:background="@drawable/music_create_song_sheet" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <somebody_z.me.zuimusic.widget.ListViewForScrollView
+                android:id="@+id/lv_music_create_song_sheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/ll_music_collect_song_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:background="@color/colorDeepGray"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_music_collect_song_sheet"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/music_left" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/collect_song_sheet"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_music_collect_song_sheet_count"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(16)"
+                    android:textColor="@color/colorDarkGray"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_music_collect_song_sheet_option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="3dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="23dp"
+                        android:background="@drawable/music_create_song_sheet" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <somebody_z.me.zuimusic.widget.ListViewForScrollView
+                android:id="@+id/lv_music_collect_song_sheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

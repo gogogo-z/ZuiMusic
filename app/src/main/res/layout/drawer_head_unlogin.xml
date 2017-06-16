@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_drawer_head_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_draw_head_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/topinfo_ban_bg"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_draw_head_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_desc"
+        android:textColor="@color/colorLightGray"
+        android:textSize="@dimen/middle_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_draw_head_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/login_zuimusic"
+        android:textColor="@color/colorLightGray"
+        android:textSize="@dimen/text_size_13" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_draw_head_desc">
+
+        <Button
+            android:id="@+id/btn_drawer_head"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_save_cover"
+            android:text="@string/now_login"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/middle_text_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

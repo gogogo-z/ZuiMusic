@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+
+    <!--灰白色背景-->
+    <color name="colorGrayWhite">#f9f9f9</color>
+
+    <color name="swipe_color_1">#3F51B5</color>
+    <color name="swipe_color_2">#FF4081</color>
+    <color name="swipe_color_3">#00a6ff</color>
+    <color name="swipe_color_4">#d000ff</color>
+
+    <color name="colorLightGray">#eeeeee</color>
+    <color name="colorDarkGray">#5E5E5E</color>
+    <color name="colorGray">#DDDDDD</color>
+    <color name="Gray">#9F9F9F</color>
+
+    <color name="colorDeepGray">#eaeaea</color>
+
+    <color name="colorMiddleGray">#bababa</color>
+
+    <color name="colorRed">#C70C0C</color>
+    <color name="colorAlphaRed">#52C70C0C</color>
+    <color name="colorDarkRed">#640101</color>
+
+    //透明背景
+    <color name="indexBarBg">#b0000000</color>
+    <color name="localsongbg">#f5f5f5</color>
+
+    <color name="colorDarkAlphaColor">#40000000</color>
+    <color name="colorAlphaColor">#20000000</color>
+    <color name="colorMiddleAlphaColor">#10000000</color>
+    <color name="colorLightAlphaColor">#05000000</color>
+
+    <!--白色透明背景-->
+    <color name="colorAlphaWhite">#76ffffff</color>
+
+    <color name="colorBlue">#156ec7</color>
+    <color name="alphaColorBlue">#45156ec7</color>
+
+    <!--渐变-->
+    <color name="colorGradientEnd">#05eeeeee</color>
+    <color name="colorGradientCenter">#30eeeeee</color>
+    <color name="colorGradientStart">#05eeeeee</color>
+
+    <!--进度条-->
+    <color name="colorProgress">#ee787878</color>
+    <color name="colorSecondProgress">#90aaaaaa</color>
+    <color name="colorProgressRed">#fa0c0c</color>
+
+</resources>

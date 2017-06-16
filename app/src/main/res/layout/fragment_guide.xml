@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <somebody_z.me.zuimusic.widget.FullScreenVideoView
+        android:id="@+id/guide_vv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" />
+
+    <ImageView
+        android:id="@+id/guide_right_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="30dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/guide_left_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/guide_right_iv"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/guide_right_iv"
+        android:visibility="gone" />
+
+</RelativeLayout>

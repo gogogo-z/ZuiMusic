@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_create_song_sheet_bg"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/new_create_song_sheet"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_popup_create_song_sheet_input"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/input_new_song_sheet_title"
+                android:maxLines="1"
+                android:textColor="@color/colorDarkGray"
+                android:textColorHint="@color/colorGray"
+                android:textCursorDrawable="@null"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGray" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_popup_create_song_sheet_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="0/40"
+            android:textColor="@color/Gray"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_popup_create_song_sheet_private"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/selector_private_song_sheet"
+            android:button="@null"
+            android:checked="false" />
+
+        <TextView
+            android:id="@+id/tv_popup_create_song_sheet_private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="@string/set_private_song_sheet"
+            android:textColor="@color/Gray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_create_song_sheet_commit"
+            android:layout_width="65dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/selector_create_song_sheet_btn"
+            android:enabled="false"
+            android:text="@string/commit"
+            android:textColor="@color/alphaColorBlue"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_create_song_sheet_cancel"
+            android:layout_width="65dp"
+            android:layout_height="36dp"
+            android:layout_toLeftOf="@+id/btn_create_song_sheet_commit"
+            android:background="@drawable/selector_create_song_sheet_btn"
+            android:text="@string/cancel"
+            android:textColor="@color/colorBlue"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_1">
+
+        <item
+            android:id="@+id/menu_my_msg"
+            android:icon="@drawable/icon_my_msg"
+            android:title="我的消息" />
+
+        <item
+            android:id="@+id/menu_vip"
+            android:icon="@drawable/icon_vip"
+            android:title="会员中心" />
+
+        <item
+            android:id="@+id/menu_shop"
+            android:icon="@drawable/icon_shop"
+            android:title="商城" />
+
+        <item
+            android:id="@+id/menu_online_listen"
+            android:icon="@drawable/icon_online_listen"
+            android:title="在线听歌免流量" />
+    </group>
+
+    <item
+        android:id="@+id/menu_listen_to_know"
+        android:icon="@drawable/icon_listen_to_know"
+        android:title="听歌识曲" />
+
+    <item
+        android:id="@+id/menu_theme"
+        android:icon="@drawable/icon_theme"
+        android:title="主题换肤" />
+
+    <item
+        android:id="@+id/menu_night_mode"
+        android:icon="@drawable/icon_night_mode"
+        android:title="夜间模式" />
+
+    <item
+        android:id="@+id/menu_stop_play"
+        android:icon="@drawable/icon_stop_play"
+        android:title="定时停止播放" />
+
+    <item
+        android:id="@+id/menu_scan"
+        android:icon="@drawable/icon_scan"
+        android:title="扫一扫" />
+
+    <item
+        android:id="@+id/menu_music_alarm_clock"
+        android:icon="@drawable/icon_music_alarm_clock"
+        android:title="音乐闹钟" />
+
+    <item
+        android:id="@+id/menu_drive"
+        android:icon="@drawable/icon_drive"
+        android:title="驾驶模式" />
+
+</menu>

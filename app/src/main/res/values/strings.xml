@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">ZuiMusic</string>
+
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_loading">正在加载...</string>
+    <string name="nomore_loading">没有了</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="loading_done">加载完成</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+
+    <string name="select_category">选择分类</string>
+
+    <string name="local_music">本地音乐</string>
+    <string name="recently_played">最近播放</string>
+    <string name="download_maneger">下载管理</string>
+    <string name="my_singer">我的歌手</string>
+    <string name="my_mv">我的唱片</string>
+
+    <string name="create_song_sheet">创建的歌单</string>
+    <string name="collect_song_sheet">收藏的歌单</string>
+
+    <string name="create_new_song_sheet">创建新歌单</string>
+    <string name="song_sheet_manager">歌单管理</string>
+
+    <string name="song_sheet_download">下载</string>
+    <string name="song_sheet_delete">删除</string>
+    <string name="song_sheet_edit">编辑歌单信息</string>
+
+    <string name="new_create_song_sheet">新建歌单</string>
+    <string name="input_new_song_sheet_title">请输入歌单标题</string>
+    <string name="set_private_song_sheet">设置为隐私歌单</string>
+
+    <string name="commit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+
+    <string name="confirm_delete_song_sheet">确定要删除此歌单吗？</string>
+
+    <string name="play_all">播放全部</string>
+
+    <string name="scan_local_music">扫描本地音乐</string>
+    <string name="select_sort_mode">选择排序方式</string>
+    <string name="get_cover_and_lrc">获取封面歌词</string>
+    <string name="up_quality">升级音质</string>
+    <string name="empty_download_file">清空下载文件</string>
+    <string name="tip">举报</string>
+
+    <string name="cancel_collect">不再收藏</string>
+    <string name="confirm_cancel_collect">确定不再收藏此歌单吗？</string>
+
+    <string name="next_play">下一首播放</string>
+    <string name="collect_to_song_sheet">收藏到歌单</string>
+    <string name="down_load">下载</string>
+    <string name="comment">评论</string>
+    <string name="share">分享</string>
+    <string name="artist">歌手</string>
+    <string name="album">专辑</string>
+    <string name="look_mv">查看MV</string>
+    <string name="cai_ling">彩铃</string>
+
+    <string name="save_cover">保存封面</string>
+
+    <string name="selected_item_count">已选择0项</string>
+    <string name="selected_all">全选</string>
+    <string name="cancel_selected_all">取消全选</string>
+
+    <string name="add_to_song_sheet">加入歌单</string>
+
+    <string name="collect">收 藏</string>
+
+    <string name="all_song_sheet">全部歌单</string>
+
+    <string name="scan_music">扫描音乐</string>
+    <string name="local_music_none">暂无本地音乐</string>
+
+    <string name="my_player_none">暂无收藏的歌手</string>
+    <string name="collect_love_player">收藏喜欢的歌手，及时接收他们的新专辑提醒</string>
+
+    <string name="lrc_empty">暂时没有歌词</string>
+
+    <string name="app_desc">320K高音质无限下载，手机电脑多端同步</string>
+    <string name="login_zuimusic">登录最音乐</string>
+    <string name="now_login">立即登录</string>
+
+    <string name="tel_login">手机号登录</string>
+    <string name="tel_register">手机号注册</string>
+
+    <string name="confirm_exit_account">确定退出当前帐号吗？</string>
+    <string name="exit">退出</string>
+
+    <string-array name="indexable_letter">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+</resources>

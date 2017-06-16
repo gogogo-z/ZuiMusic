@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_create_song_sheet_bg"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/tv_dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_delete_song_sheet"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_delete_song_sheet_confirm"
+            android:layout_width="65dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/selector_create_song_sheet_btn"
+            android:text="@string/delete"
+            android:textColor="@color/colorBlue"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_delete_song_sheet_cancel"
+            android:layout_width="65dp"
+            android:layout_height="36dp"
+            android:layout_toLeftOf="@+id/btn_delete_song_sheet_confirm"
+            android:background="@drawable/selector_create_song_sheet_btn"
+            android:text="@string/cancel"
+            android:textColor="@color/colorBlue"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

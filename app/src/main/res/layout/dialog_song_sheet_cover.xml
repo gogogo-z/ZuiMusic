@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/iv_song_sheet_cover_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/ll_song_sheet_cover_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_save_cover"
+            android:text="@string/save_cover"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/middle_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_song_sheet_cover_bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_song_sheet_cover_dismiss"
+            android:layout_width="48dp"
+            android:layout_height="@dimen/action_top_height"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/selector_song_sheet_cover"
+                android:clickable="true" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_song_sheet_cover"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp" />
+
+                <TextView
+                    android:id="@+id/tv_song_sheet_cover_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="[孤独收纳]留有余地又不留余地"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/big_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/shape_line_bg" />
+
+                <TextView
+                    android:id="@+id/tv_song_sheet_cover_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:text="[孤独收纳]留有余地又不留余地"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/normal_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_song_sheet_cover_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="25dp"
+                    android:text="标签"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/middle_text_size" />
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

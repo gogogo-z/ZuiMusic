@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_rank_official_item"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/iv_rank_official_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAlphaColor"
+            android:gravity="center_vertical|right"
+            android:padding="2dp"
+            android:text="每天更新"
+            android:textColor="@color/colorWhite"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_rank_official_item_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="霍建华生日特辑：德才兼备的老干部生日快乐"
+            android:textColor="@color/colorDarkGray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_rank_official_item_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="霍建华生日特辑：德才兼备的老干部生日快乐"
+            android:textColor="@color/colorDarkGray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_rank_official_item_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="霍建华生日特辑：德才兼备的老干部生日快乐"
+            android:textColor="@color/colorDarkGray"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

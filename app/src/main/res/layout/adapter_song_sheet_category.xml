@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_adapter_song_sheet_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_category"
+        android:text="@string/all_song_sheet"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/middle_text_size" />
+
+</LinearLayout>

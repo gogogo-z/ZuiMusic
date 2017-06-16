@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/guide_enter_press" android:state_pressed="true"/><!--按下-->
+    <item android:drawable="@drawable/guide_enter_press" android:state_checked="true"/><!--选择-->
+    <item android:drawable="@drawable/guide_enter_press" android:state_selected="true"/><!--选中-->
+    <item android:drawable="@drawable/guide_enter_default" /><!--默认-->
+
+</selector>

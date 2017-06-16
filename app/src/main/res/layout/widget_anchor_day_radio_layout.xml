@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    android:orientation="horizontal">
+
+    <somebody_z.me.zuimusic.widget.anchordayradio.AnchorDayRadioItem
+        android:id="@+id/si_anchor_day_radio_layout_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <somebody_z.me.zuimusic.widget.anchordayradio.AnchorDayRadioItem
+        android:id="@+id/si_anchor_day_radio_layout_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1" />
+
+    <somebody_z.me.zuimusic.widget.anchordayradio.AnchorDayRadioItem
+        android:id="@+id/si_anchor_day_radio_layout_3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_music_item_bg"
+    android:clickable="true"
+    android:paddingBottom="13dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="13dp">
+
+    <TextView
+        android:id="@+id/tv_song_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/big_text_size" />
+
+    <TextView
+        android:id="@+id/tv_song_list_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tv_song_list_title"
+        android:textColor="@color/Gray"
+        android:textSize="@dimen/normal_text_size" />
+
+    <RelativeLayout
+        android:id="@+id/rl_song_list_delete"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/iv_song_list_delete"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/list_full_btn_close" />
+    </RelativeLayout>
+
+</RelativeLayout>

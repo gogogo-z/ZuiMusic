@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/collect_to_song_sheet"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/mid_large_text_size" />
+
+    <LinearLayout
+        android:id="@+id/ll_collect_to_song_sheet_new_song_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_music_item_bg"
+        android:clickable="true"
+        android:gravity="center_vertical">
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="54dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/collect_new_song_sheet" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/new_create_song_sheet"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_15" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <somebody_z.me.zuimusic.widget.ListViewForScrollView
+            android:id="@+id/lv_collect_to_song_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null" />
+    </ScrollView>
+
+</LinearLayout>

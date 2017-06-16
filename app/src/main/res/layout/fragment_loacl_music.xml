@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_local_music_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_top_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_local_music_back"
+                android:layout_width="@dimen/action_top_height"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_back_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/left_back" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/ll_local_music_back"
+                android:gravity="center_vertical"
+                android:text="@string/local_music"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/large_text_size" />
+
+            <LinearLayout
+                android:id="@+id/ll_detail_more"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/selector_back_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/actionbar_more" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_detail_search"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/ll_detail_more"
+                android:background="@drawable/selector_back_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/icon_search" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_local_music"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            app:tabIndicatorColor="@android:color/transparent"
+            app:tabSelectedTextColor="@color/colorRed"
+            app:tabTextColor="@color/colorDarkGray" />
+
+        <TextView
+            android:id="@+id/tv_local_music_tab_indicator"
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="@color/colorRed" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_local_music_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
